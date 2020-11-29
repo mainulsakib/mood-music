@@ -1,89 +1,276 @@
-body{
-    font-family: Brandon;
-background-color: #21212E;
-color:white;
-}
-nav{
-     color:white;
-}
-.nav-link{
-    margin: 0 20px;
-}
-.navbar-brand{
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 300px) {
+
+    body{
+        font-family: Brandon;
+    background-color: #21212E;
     color:white;
-}
-a{
-    text-decoration: none;
-    color:gray;
-}
-p{
-    color:gray;
-}
-.btn{
+    box-sizing: border-box;
+    }
+    nav{
+        color:white;
+   }
+   .nav-link{
+       margin: 0 20px;
+   }
+   .navbar-brand{
+       color:white;
+   }
+   a{
+       text-decoration: none;
+       color:gray;
+   }
+   p{
+       color:gray;
+   }
+   .btn{
     width:40%;
     margin: 0;
     padding: 0;
 }
 .head{
     font-size:60px;
-    margin-top:10%;
+    
     font-weight:bold;
-    margin:5% 5%
+    margin:5% 5%;
 
 }
 .imgCenter
-{
-  position:absolute;
-  top: 10px;
-  z-index: 3;
+    {
+      position:absolute;
+      top: 10px;
+      z-index: 3;
+    }
+    .imgRight
+    {
+      position: relative;;
+      top: 25px;
+      left: 250px;
+      z-index:2;
+    }
+    .imgLeft
+    {
+      position: relative;
+      top: 25px;
+      right: 100px;
+      z-index:1;
+    }
+    .subhead{
+        margin-top:25%
+    }
+    .about{
+        position: absolute;
+        height:400px ;
+        width:190px;
+        background-image:linear-gradient(#a60edc,#5f27cd) ;
+        border-radius:10px;
+        transform: rotate(-15deg) ;
+        margin:0 auto;
+        z-index: 1;
+        top:80px;
+        left:130px;
+    }
+    .about2{
+        position: relative;
+        height:400px ;
+        top:70px;
+        left:100px;
+        width:190px;
+        background-image:linear-gradient(#41b3ec,#41b3ec) ;
+        border-radius:10px;
+        transform: rotate(15deg) ;
+        z-index: 2;
+    }
+    .imgCenterAbout
+    {
+        left: 10%;
+      position:absolute;
+      z-index: 3;
+      margin-bottom: 5%;
+    }
+    .card{
+        
+        box-shadow: 0 10px 30px black;
+        width: 100%;
+        height:100%;
+         background-color: #21212E; 
+       margin: 10%% 10%;
+        padding:5%;
+        
+        
+    }
+    .imageStyle{
+        height: 3rem;
+        width: 2rem;
+        margin:0 auto;
+    }
+    .midCard{
+        height: 50%;
+        width: 100%;
+        background-color: #21212E;
+        box-shadow: 0 10px 30px black; 
+        
+    }
+    .btn{
+        padding:5% 2%
+        }
+    .Show{
+        top:1000px
+    }
+    
 }
-.imgRight
-{
-  position: relative;;
-  top: 25px;
-  left: 250px;
-  z-index:2;
+@media only screen and (min-width: 768px) {
+    .body{
+        overflow-x: hidden;
+    }
+    .imgCenter
+    {
+      position:absolute;
+      top: 10px;
+      z-index: 3;
+    }
+    .imgRight
+    {
+      position: relative;;
+      top: 25px;
+      left: 250px;
+      z-index:2;
+    }
+    .imgLeft
+    {
+      position: absolute;;
+     bottom :100px
+     
+   
+      z-index:1;
+    }
 }
-.imgLeft
-{
-  position: relative;
-  top: 25px;
-  right: 100px;
-  z-index:1;
+
+@media only screen and (min-width: 992px) {
+
+    body{
+        font-family: Brandon;
+    background-color: #21212E;
+    color:white;
+    box-sizing: border-box;
+    }
+    nav{
+         color:white;
+    }
+    .nav-link{
+        margin: 0 20px;
+    }
+    .navbar-brand{
+        color:white;
+    }
+    a{
+        text-decoration: none;
+        color:gray;
+    }
+    p{
+        color:gray;
+    }
+    .btn{
+        width:40%;
+        margin: 0;
+        padding: 0;
+    }
+    .head{
+        font-size:60px;
+        
+        font-weight:bold;
+        margin:5% 5%;
+      
+    
+    }
+    .imgCenter
+    {
+      position:absolute;
+      top: 10px;
+      z-index: 3;
+    }
+    .imgRight
+    {
+      position: relative;;
+      top: 25px;
+      left: 250px;
+      z-index:2;
+    }
+    .imgLeft
+    {
+      position: relative;
+      top: 25px;
+      right: 100px;
+      z-index:1;
+    }
+    .subhead{
+        margin-top:25%
+    }
+    .about{
+        position: absolute;
+        height:400px ;
+        width:190px;
+        background-image:linear-gradient(#a60edc,#5f27cd) ;
+        border-radius:10px;
+        transform: rotate(-15deg) ;
+        margin:0 auto;
+        z-index: 1;
+        top:80px;
+        left:130px;
+    }
+    .about2{
+        position: relative;
+        height:400px ;
+        top:70px;
+        left:100px;
+        width:190px;
+        background-image:linear-gradient(#41b3ec,#41b3ec) ;
+        border-radius:10px;
+        transform: rotate(15deg) ;
+        z-index: 2;
+    }
+    .imgCenterAbout
+    {
+        left: 10%;
+      position:absolute;
+      z-index: 3;
+      margin-bottom: 5%;
+    }
+   
+    .card{
+        
+        box-shadow: 0 10px 30px black;
+        width: 100%;
+        height:100%;
+         background-color: #21212E; 
+       margin: 10%% 10%;
+        padding:5%;
+        
+        
+    }
+    .imageStyle{
+        height: 3rem;
+        width: 2rem;
+        margin:0 auto;
+    }
+    .midCard{
+        height: 50%;
+        width: 100%;
+        background-color: #21212E;
+        box-shadow: 0 10px 30px black; 
+        
+    }
+    .divStyle{
+        background-color: #242432; 
+        width:100%;
+        margin-top:15%
+    }
+    .btn{
+    padding:5% 2%
+    }
+    
 }
-.subhead{
-    margin-top:25%
-}
-.about{
-    position: absolute;
-    height:400px ;
-    width:190px;
-    background-image:linear-gradient(#a60edc,#5f27cd) ;
-    border-radius:10px;
-    transform: rotate(-15deg) ;
-    margin:0 auto;
-    z-index: 1;
-    top:80px;
-    left:130px;
-}
-.about2{
-    position: relative;
-    height:400px ;
-    top:70px;
-    left:100px;
-    width:190px;
-    background-image:linear-gradient(#41b3ec,#41b3ec) ;
-    border-radius:10px;
-    transform: rotate(15deg) ;
-    z-index: 2;
-}
-.imgCenterAbout
-{
-    left: 10%;
-  position:absolute;
-  z-index: 3;
-  margin-bottom: 5%;
-}
+
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
         display: none;
@@ -117,33 +304,4 @@ p{
 .carousel-inner .carousel-item-left{ 
   transform: translateX(0);
 }
-.card{
-    box-shadow: 0 10px 30px black;
-    width: 100%;
-    height:100%;
-     background-color: #21212E; 
-   margin: 10%% 10%;
-    padding:5%;
-    
-    
-}
-.imageStyle{
-    height: 3rem;
-    width: 2rem;
-    margin:0 auto;
-}
-.midCard{
-    height: 50%;
-    width: 100%;
-    background-color: #21212E;
-    box-shadow: 0 10px 30px black; 
-    
-}
-.divStyle{
-    background-color: #242432; 
-    width:100%;
-    margin-top:15%
-}
-.btn{
-padding:5% 2%
-}
+
